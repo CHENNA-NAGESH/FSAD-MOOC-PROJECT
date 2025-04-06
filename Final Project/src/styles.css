@@ -1,0 +1,102 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  
+  /* Header */
+  header {
+    background-color: #4caf50;
+    padding: 15px;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Navigation */
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Landing Page */
+  .landing {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .landing .btn {
+    background-color: #4caf50;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Product Listing */
+  .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .product {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product button {
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* Shopping Cart */
+  .cart {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cart ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .cart img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+  }
+  
+  button:disabled {
+    background: gray;
+  }
+  
